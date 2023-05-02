@@ -7,4 +7,4 @@ management:
       exposure:
         include: refresh
 
-use.message: Native Production Profiles
+user.message: Native Production Profiles

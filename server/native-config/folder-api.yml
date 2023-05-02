@@ -7,4 +7,4 @@ management:
       exposure:
         include: '*'
 
-use.message: Native Default Profiles
+user.message: Native Default Profiles
