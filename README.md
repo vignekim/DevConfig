@@ -19,7 +19,24 @@ DevContainer + Spring Cloud Config
 #### - Client
 <img src="./image/Cloud Config Client.png" width="1000"></img>
 
+#### - Client Import (application.yml)
+```
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+```
 
+
+### Resources
+
+| Path             | Description  |
+|------------------|--------------|
+| /{app}/{profile} | Configuration data for app in Spring profile (comma-separated).|
+| /{app}/{profile}/{label} | Add a git label |
+| /{app}/{profile}{label}/{path} | An environment-specific plain text config file (at "path") |
+
+
+----
 ### Spring Project
 > * [Spring initializr](https://start.spring.io/)
 > * [Application Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)
@@ -30,4 +47,6 @@ DevContainer + Spring Cloud Config
 
 ----
 ### YouTube Link
+
+> * [1. Cloud 소개](https://youtu.be/mlJWoXJm034)
 

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: folder-api
+
+spring.cloud.config.enabled: false
+
+server:
+  port: 8081
