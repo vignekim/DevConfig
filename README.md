@@ -49,4 +49,5 @@ spring:
 ### YouTube Link
 
 > * [1. Cloud 소개](https://youtu.be/mlJWoXJm034)
-
+> * [2. Config 설정하기 1부](https://youtu.be/65PwJMJbKYQ)
+> * [3. Config 설정하기 2부](https://youtu.be/8Y2OSavfizo)
